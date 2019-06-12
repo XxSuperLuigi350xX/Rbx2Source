@@ -22,7 +22,7 @@ namespace Rbx2Source.Compiler
             parameters.Add(parameter);
         }
 		
-        public void AddParameter(string name = "", string value = "")
+        public void AddParameter(string name = "", string value = "0")
         {
             var param = new UtilParameter(name, value);
             AddParameter(param);
